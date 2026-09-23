@@ -32,5 +32,5 @@ study_hours = study_minutes/60
 print(f'Study Hours : {np.round(study_hours,2)}')
 
 
-greater = np.array(insta_minutes > 100)
-print([i for i in greater if i])
+greater = np.array((insta_minutes[insta_minutes>100]),dtype = int)
+print(greater)
