@@ -30,7 +30,7 @@ from datetime import datetime, timedelta
 # SETTINGS
 # ----------------------------------------------------------
 
-NUM_DAYS = 30
+NUM_DAYS = 365
 OUTPUT_FILE = "digital_behaviour.csv"
 
 # No fixed seed - every student gets different numbers.
@@ -134,9 +134,7 @@ def main():
     print(f"{OUTPUT_FILE} created successfully!")
     print(f"Rows: {len(rows)}")
     print(f"Columns: {len(COLUMNS)}")
-    print()
-    print("Next step: open this file in Excel and look at it.")
-    print("Do not write any analysis code yet.")
+
 
 
 if __name__ == "__main__":
