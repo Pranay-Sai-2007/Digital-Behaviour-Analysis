@@ -34,3 +34,6 @@ print(f'Study Hours : {np.round(study_hours,2)}')
 
 greater = np.array((insta_minutes[insta_minutes>100]),dtype = int)
 print(greater)
+
+value = len(insta_minutes[insta_minutes>100])
+print(value)
