@@ -30,7 +30,7 @@ from datetime import datetime, timedelta
 # SETTINGS
 # ----------------------------------------------------------
 
-NUM_DAYS = 365
+NUM_DAYS = 30
 OUTPUT_FILE = "digital_behaviour.csv"
 
 # No fixed seed - every student gets different numbers.
